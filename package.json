@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://sjanardhan05.github.io/FlowerShop/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjanardhan05/FlowerShop.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
