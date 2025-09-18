@@ -5,11 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Gallery = () => {
   const navigate=useNavigate();
-  useEffect(()=>{
-    if(!localStorage.getItem('name')){
-      navigate('/login')
-    }
-  })
+
   return (
     <>
       <div className="gallery_container">

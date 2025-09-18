@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/FlowerShop">
             Flower <span style={{ color: "hotpink", cursor: "pointer" }}>Shop</span>
           </Link>
           <button
@@ -27,7 +27,7 @@ const Navbar = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="/">
+                  <Link className="nav-link active" aria-current="page" to="/FlowerShop">
                     Home
                   </Link>
                 </li>
